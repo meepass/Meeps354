@@ -53,5 +53,186 @@ li a:hover {
     <h1>Meepass Games</h1>
     <p><a href="#">Stick man game (whatever its called)</a></p>
     <a href="https://www.youtube.com/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAfCAMAAACF8f6iAAAAllBMVEX////+/v7+AAAAAADq6ur7AAD6+vp+fn5bW1vy8vLd3d2Ojo44ODja2trU1NTJycmFhYWgoKAwMDCwsLCWlpZISEgdHR0KCgr43Nr3rKv4mpr4j474hYX5fHv5d3f6g4L3paT4xcTxa2pmZmbyQ0H66+v4LStTU1O9vb34DhJ0dHQoKCj1npv2YWEVFRX2t7b5W1j5UFA6KGC0AAABcUlEQVQ4je2S61LCMBCFN26S3pP0JncRWlRAEN7/5UzTppSCOPxwHGc87eR6vu5mUyBQS/eE6NcIbNsO2i07NGtgILAOsK6O+UINA9/YroE21ybh9umG7n7W7oJN9U413GV9enGugTV5d8RbIm1LOsObyI9rOBpPprOn2Xwyfl58ZeIR7y8t2ENHS6AoIImbTYpJoucAPvp9cGkASzPQlHdyiSIX3IC0D5bGP21ItoKgkAipEpBKL+aOCzGVKUUZ+CBUegJfav9qaVA2BLnPnBQz5KHScRzXQ6G2FFX+yjHGtxZcN4Hqw2oQMJEbF1DkLRiEFL14qzPJs1NEVoPvzIIFksLlKM9BGj9KVPugd8bRmjEbOttCUVwHZXSq0Y6dVZUY0NHn8XMV1WCkKlCFEYIbt+Do7B5LvRIgCBzkoHCDdJPDHgtdHBczCAfd6/yY7w7HY1keD7uncXVnRDe8SokCrybc0z0Hr1r55b/8X39cn3VwFUugXwGVAAAAAElFTkSuQmCC" width="100" height="100"></a>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title>Games</title>
+    <meta charset="UTF-8" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      img {
+        width: 75px;
+        height: 75px;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(8ch, auto);
+        gap: 10px;
+        max-width: 1000px;
+        grid-auto-rows: minmax(100px, auto);
+      }
+      .one:hover,
+      .two:hover,
+      .three:hover,
+      .four:hover,
+      .five:hover,
+      .six:hover,
+      .seven:hover,
+      .eight:hover,
+      .nine:hover,
+      .ten:hover {
+        -webkit-transform: perspective(2px) translateZ(0);
+        box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+        -webkit-transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow transform;
+        transition-property: box-shadow transform;
+        transform: perspective(2px) translateZ(0);
+        transition-duration: 0.3s;
+      }
+      .one {
+        margin: 5px;
+        grid-column: 1;
+        grid-row: 1 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .two {
+        margin: 5px;
+        grid-column: 2;
+        grid-row: 1 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .three {
+        margin: 5px;
+        grid-column: 3;
+        grid-row: 1 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .four {
+        margin: 5px;
+        grid-column: 4;
+        grid-row: 1 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .five {
+        margin: 5px;
+        grid-column: 5;
+        grid-row: 1 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .six {
+        margin: 5px;
+        grid-column: 1;
+        grid-row: 2 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .seven {
+        margin: 5px;
+        grid-column: 2;
+        grid-row: 2 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .eight {
+        margin: 5px;
+        grid-column: 3;
+        grid-row: 2 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .nine {
+        margin: 5px;
+        grid-column: 4;
+        grid-row: 2 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+      .ten {
+        margin: 5px;
+        grid-column: 5;
+        grid-row: 2 / 2;
+        border-radius: 5px;
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="one">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="two">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="three">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="four">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="five">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="six">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="seven">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="eight">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="nine">
+        <a href="#"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+      <div class="ten">
+        <a href="https://www.youtube.com/"
+          ><img src="https://cdn-icons-png.flaticon.com/512/4125/4125974.png"
+        /></a>
+      </div>
+     /></a>
+      </div>
+    </div>
+  </body>
+</html>
+
   </body>
 </html>
